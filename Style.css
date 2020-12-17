@@ -42,7 +42,7 @@
     font-size: 1.5rem;
 }
 .banner-image > img{
-    padding: 3rem 1rem;
+    padding: 3rem 4rem;
 }
 .button{
     padding: .8rem 2.2rem;
@@ -57,13 +57,13 @@
 .primary-button:hover{
 font-weight: bold;
 }
-.image{
+.image {
     padding-top: 8rem  ;
     text-align: center;
 }
 .about-area{
     background-color:#7510F7;
-    padding: 5rem 2rem 20rem 1rem;
+    padding: 5rem 2rem 16rem 1rem;
     /* text-align: justify; */
 }
 .secondary-button{
@@ -75,11 +75,12 @@ font-weight: bold;
 .skills{
     background-color: white;
     border: .2px solid whitesmoke;
-    height: 600px;
+    /* height: 600px; */
     margin-top: -150px;
     border-radius: 15px;
     text-align: center;
     padding-top: 5rem;
+    box-shadow: 0.5px 0.5px  #473d3d;
 }
 .skills h3{
     padding-top: 2rem;
@@ -88,7 +89,7 @@ font-weight: bold;
 
 .skills  p{
     font-size: 1.2em;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 .skills h4{
     color: #7510F7;
@@ -98,11 +99,49 @@ font-weight: bold;
 .skill-row p{
     font-size: 1.2em;
     padding-top: 5px;
-    /* margin-top: 2px ; */
+
 }
 .tools{
-    padding-top: 2px ;
-    margin-top: 2px ;
+    /* list-style: none; */
+    /* list-style-type: none; */
+    list-style: none;
+    padding-top: 0.5rem;
+    font-weight: 400;
+    font-size: 1.1em; 
+}
+.recentWork{
+    text-align: center;
+    padding-top: 8rem;
+    
+}
+.recentWork h1{
+    font-weight: bold;
+}
+.recent-work-img  img{
+    width: 100%;
+   border-radius: 10px;
+   margin-top: 4rem;
+   margin-left: 10px;
+}
+.recent-work-img  img:hover{
+    transform: scale(1.11);
+}
+.icon-button{
+    border-radius: 25px;
+    color: #7510F7 ;
+    border: 2px solid #7510F7;
+    margin-top: 6rem;
+    margin-left: 40%;
+    width: 275px;
+    height: 50px;
+    font-weight: 600;
+    
+}
+.icon-button:hover{
+    background-color: #7510F7;
+    transition-property: background-color;
+    transition-duration: .5s;
+    
 }
 
 
