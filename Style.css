@@ -72,7 +72,7 @@ font-weight: bold;
     background-clip: padding-box;
 
 }
-.skills{
+.skills ,.projects ,.project-detail{
     background-color: white;
     border: .2px solid whitesmoke;
     /* height: 600px; */
@@ -109,18 +109,21 @@ font-weight: bold;
     font-weight: 400;
     font-size: 1.1em; 
 }
-.recentWork{
+.recentWork, .colabs ,.startups{
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    font-size: 18px;
     
 }
-.recentWork h1{
+.recentWork h2,  .colabs h2 ,.startups h2{
     font-weight: bold;
+    padding-bottom: 20px;
 }
-.recent-work-img  img{
+.recent-work-img  img , .colabulators-logo img {
     width: 100%;
    border-radius: 10px;
-   margin-top: 4rem;
+   margin-top: 2rem;
    margin-left: 10px;
 }
 .recent-work-img  img:hover{
@@ -135,15 +138,125 @@ font-weight: bold;
     width: 275px;
     height: 50px;
     font-weight: 600;
+    margin-bottom: 150px;
     
 }
-.icon-button:hover{
+hr{
+    font-weight: 100;
+}
+.icon-button:hover ,.footer-button:hover{
     background-color: #7510F7;
+    color: white;
     transition-property: background-color;
     transition-duration: .5s;
     
 }
 
+.colabulators-logo{
+    margin: 0px 2rem 8rem 2rem;
+}
+.startUp-container{
+    background-color: #7510F7;
+}
+ .startups{
+     padding-bottom: 15rem;
+ }
+.first-project-row{
+    padding-bottom: 3rem;
+    
+}
+
+.first-project-row p {
+    font-size: 18px;
+    padding: 2rem;
+}
+
+    
+.project{
+    margin: 0rem 3rem ;
+}
+
+
+.project-detail{
+    padding: 5rem 2rem 6rem 1rem;
+    overflow: hidden;
+    height: 150%;
+}
+.project-detail p{
+    margin: 2rem 1rem;
+}
+
+.project-detail i{
+    opacity: 0.5;
+    color: #7510F7;
+}
+.extra-two a{
+    text-decoration: none;
+    color: #7510F7;
+    font-weight: bold;
+}
+.row-two{
+    margin-top: 2rem;
+    height: 90%;
+
+}
+.row-two-img img{
+    width: 70%;
+}
+  .footer-top{
+      z-index: 8;
+      text-align: center;
+      background-color: #141c3a;
+      color: whitesmoke;
+      padding: 3rem 2rem;
+      border-radius: 20px;
+      position: relative;
+      /* height: 20px; */
+      margin-bottom: -50px;
+  }
+  .footer-button{
+        border-radius: 25px;
+        color: whitesmoke    ;
+        border: 2px solid #7510F7;
+        /* margin-top: 6rem; */
+        /* margin-left: 40%; */
+        width: 80%;
+        height: 50px;
+        font-weight: 600;
+        /* margin-bottom: 150px; */
+        /* z-index: -2; */
+        
+    }
+
+.footer{
+    background-color: #7510F7;
+    text-align: center;
+    padding-top: 15%;
+
+    /* margin-top: -50px; */
+    /* z-index: -2; */
+}
+.footer div{
+    margin-top: 2%;
+}
+.footer li{
+    list-style: none;
+    display: inline;
+    margin: 3%;
+    float: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    padding: 1%;
+}
+.footer li:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.footerimg{
+    width: 20%;
+    margin: auto;
+}
 
 
 
