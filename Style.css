@@ -60,6 +60,7 @@ font-weight: bold;
 .image {
     padding-top: 8rem  ;
     text-align: center;
+    width: 70%;
 }
 .about-area{
     background-color:#7510F7;
@@ -204,7 +205,7 @@ hr{
     width: 70%;
 }
   .footer-top{
-      z-index: 8;
+      /* z-index: 8; */
       text-align: center;
       background-color: #141c3a;
       color: whitesmoke;
